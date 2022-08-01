@@ -1,5 +1,5 @@
 import React from 'react';
-import {GoogleLogin, googleLogout} from '@react-oauth/google';
+import {GoogleLogin} from '@react-oauth/google';
 import { useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import shareVideo from '../assets/share.mp4';
@@ -22,8 +22,8 @@ const Login = () => {
     client.createIfNotExists(doc).then(() => {
         navigate('/', { replace: true });
       });
-    console.log(responseObj);
-    console.log(name + " " + sub + " " + picture);
+    //console.log(responseObj);
+    //console.log(name + " " + sub + " " + picture);
   };
 
   return (
