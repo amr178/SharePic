@@ -1,7 +1,7 @@
 # SharePic
 SharePic is an image sharing social media platform.
 
-## Topics Covered
+## Technologies Used 
 - ReactJS
 - Redux
 - Tailwind CSS
@@ -10,12 +10,15 @@ SharePic is an image sharing social media platform.
 - Sanity CMS
 
 
-### Screenshots
+###  Screenshots
 
+Dashboard
 ![Dashboard](https://github.com/amr178/SharePic/blob/master/dashboard.PNG)
 
+Creating Pins
 ![Creating Pin](https://github.com/amr178/SharePic/blob/master/pin.PNG)
 
+Categories
 ![Categories](https://github.com/amr178/SharePic/blob/master/categories.PNG)
 
 

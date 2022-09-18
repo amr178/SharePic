@@ -7,7 +7,7 @@ import { Sidebar, UserProfile } from '../components';
 import { userQuery } from '../utils/data';
 import { client } from '../client';
 import Pins from './Pins';
-import logo from '../assets/logo.png';
+import logo from '../assets/cam_logo.png';
 
 const Home = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
